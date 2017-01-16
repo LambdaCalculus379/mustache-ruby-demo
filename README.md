@@ -28,6 +28,15 @@ Afterwards
 
 Once everything is set up correctly, try some of the demos in this repo.
 
+    # Launch irb from the terminal
+    irb
+    > require 'mustache'
+    => true
+    > Mustache.render("Hello {{planet}}", planet: "World!")
+    => "Hello World!"
+
+This simple demo, if everything is set up correctly, will output the above responses (indicated with =>, which siginfies irb output).
+
 Additional Info
 ===============
 
